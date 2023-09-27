@@ -1,0 +1,30 @@
+.flex-container {
+  background-color: red;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+  }
+.flex-child {
+  width: 100px;
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  /* overflow: hidden; */
+max-height: 20px;
+  text-align: center;
+}
+#one{
+  flex-grow: 1;
+}
+#two{
+  flex-grow: 2;
+}
+#three{
+flex-grow: 3;
+}f
+
